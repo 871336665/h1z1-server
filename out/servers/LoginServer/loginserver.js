@@ -259,9 +259,9 @@ var LoginServer = /** @class */ (function (_super) {
                         charactersLoginInfo = {
                             characterId: characterId,
                             serverId: serverId,
+                            lastLogin: 1406824518,
                             status: 1,
-                            unknown: 0,
-                            payload: {
+                            applicationData: {
                                 serverAddress: serverAddress,
                                 serverTicket: "7y3Bh44sKWZCYZH",
                                 encryptionKey: this._cryptoKey,
@@ -278,9 +278,9 @@ var LoginServer = /** @class */ (function (_super) {
                         charactersLoginInfo = {
                             characterId: characterId,
                             serverId: serverId,
+                            lastLogin: 1406824518,
                             status: 1,
-                            unknown: 0,
-                            payload: {
+                            applicationData: {
                                 serverAddress: "127.0.0.1:1117",
                                 serverTicket: "7y3Bh44sKWZCYZH",
                                 encryptionKey: this._cryptoKey,
